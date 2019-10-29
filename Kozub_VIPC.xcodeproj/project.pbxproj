@@ -11,6 +11,9 @@
 		E1CC667E2368C1A5006B2CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC667D2368C1A5006B2CA4 /* ViewController.swift */; };
 		E1CC66832368C1A7006B2CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CC66822368C1A7006B2CA4 /* Assets.xcassets */; };
 		E1CC66862368C1A7006B2CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CC66842368C1A7006B2CA4 /* LaunchScreen.storyboard */; };
+		E1CC668E2368EDA2006B2CA4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC668D2368EDA2006B2CA4 /* Coordinator.swift */; };
+		E1CC66902368EDC9006B2CA4 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC668F2368EDC9006B2CA4 /* Presenter.swift */; };
+		E1CC66922368EDE9006B2CA4 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CC66912368EDE9006B2CA4 /* DataInteractor.swift */; };
 		E7BF59B9CB4E17E5965E4E66 /* Pods_Kozub_VIPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F1AACEE718DAE057AC2454 /* Pods_Kozub_VIPC.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,9 @@
 		E1CC66822368C1A7006B2CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1CC66852368C1A7006B2CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1CC66872368C1A7006B2CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CC668D2368EDA2006B2CA4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E1CC668F2368EDC9006B2CA4 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		E1CC66912368EDE9006B2CA4 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				E1CC66792368C1A5006B2CA4 /* AppDelegate.swift */,
 				E1CC667D2368C1A5006B2CA4 /* ViewController.swift */,
+				E1CC668D2368EDA2006B2CA4 /* Coordinator.swift */,
+				E1CC668F2368EDC9006B2CA4 /* Presenter.swift */,
+				E1CC66912368EDE9006B2CA4 /* DataInteractor.swift */,
 				E1CC66822368C1A7006B2CA4 /* Assets.xcassets */,
 				E1CC66842368C1A7006B2CA4 /* LaunchScreen.storyboard */,
 				E1CC66872368C1A7006B2CA4 /* Info.plist */,
@@ -74,7 +83,6 @@
 				7CE048B3017772A4A7ECCD84 /* Pods-Kozub_VIPC.debug.xcconfig */,
 				3C96D03A5751E9EB66C5D0FC /* Pods-Kozub_VIPC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,8 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CC66922368EDE9006B2CA4 /* DataInteractor.swift in Sources */,
 				E1CC667E2368C1A5006B2CA4 /* ViewController.swift in Sources */,
 				E1CC667A2368C1A5006B2CA4 /* AppDelegate.swift in Sources */,
+				E1CC66902368EDC9006B2CA4 /* Presenter.swift in Sources */,
+				E1CC668E2368EDA2006B2CA4 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
